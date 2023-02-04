@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstFragment">
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="WRITE"
+        android:paddingStart="30dp"
+        android:paddingTop="@dimen/cardview_compat_inset_shadow"
+        android:textColorHint="@color/purple_700"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_zero"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="0"
+        android:textColor="@color/purple_200"
+        android:textSize="100sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="+1"
+        android:textSize="40sp" />
+
+</LinearLayout>
